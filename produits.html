@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H&M CABELLO</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: white;
+}
+
+/* HEADER */
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+
+/* NAV */
+nav {
+  background: #f8c8dc;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #fdf2f4;
+}
+
+/* LOGO ANIME */
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: colorAnim 4s infinite, floatLogo 2s infinite;
+}
+
+@keyframes colorAnim {
+  0% {color:#25D366;}
+  25% {color:#ff0000;}
+  50% {color:#00aaff;}
+  75% {color:#ffcc00;}
+  100% {color:#25D366;}
+}
+
+@keyframes floatLogo {
+  0%,100% {transform: translateY(0);}
+  50% {transform: translateY(-10px);}
+}
+
+/* BUTTON */
+.btn {
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #1da851;
+}
+
+/* SERVICES */
+.services {
+  padding: 30px;
+  text-align: center;
+}
+
+.service-box {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>H&M CABELLO</header>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+
+<div class="logo">Bienvenue sur H&M CABELLO</div>
+
+<p>Votre salon de beauté pour coiffure et perruques de luxe</p>
+
+<a class="btn" href="https://wa.me/243971184774?text=Bonjour%2C%20je%20veux%20commander">
+Commander sur WhatsApp
+</a>
+
+</section>
+
+<section class="services" id="services">
+
+<h2>Nos Services</h2>
+
+<div class="service-box">
+<h3>Accessoires Téléphone</h3>
+<p>Pochette, écran, flash disk</p>
+</div>
+
+<div class="service-box">
+<h3>Perruques</h3>
+<p>Vente de perruques de qualité</p>
+</div>
+
+<div class="service-box">
+<h3>Soins</h3>
+<p>Traitement et entretien des cheveux</p>
+</div>
+
+<div class="service-box">
+<h3>Agence Cargo Chine - Bukavu</h3>
+<p>Envoyez et recevez vos colis en toute sécurité</p>
+</div>
+
+<div class="service-box">
+<h3>Commande de véhicule</h3>
+<p>Voitures de qualité à bon prix</p>
+</div>
+
+</section>
+
+<section id="contact" class="hero">
+<h2>Contact</h2>
+<p>+243 971 184 774</p>
+<p>+243 970 696 126</p>
+<p>Bukavu</p>
+</section>
+
+<footer>
+© 2026 H&M CABELLO
+</footer>
+
+</body>
+</html>
